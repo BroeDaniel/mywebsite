@@ -10,7 +10,7 @@ export default function Home() {
     <>
       <main className={styles.main}>
         <div className={styles.description}>
-          <p>My blog</p>
+          <p>Daniel Broe</p>
         </div>
       </main>
     </>
