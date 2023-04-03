@@ -3,7 +3,7 @@ title: 'Welcome and why this blog?'
 date: 'Marts 22, 2023'
 excerpt: 'Introduction to the blog and what you get out of keeping up to date with the information.'
 cover_image: '/images/posts/img1_blog_intro.jpg'
-category: 'Personal Development'
+category: 'Personal'
 ---
 
 <!-- Markdown generator - https://jaspervdj.be/lorem-markdownum/ -->
