@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import Header from './Header';
 import { ReactNode } from 'react';
 
 interface LayoutProps {
@@ -22,14 +23,14 @@ export default function Layout({
         <meta name='description' content={description} />
         <link rel='icon' href='/favicon.ico' />
       </Head>
-      {/* <Header /> */}
+      <Header />
       <main className='container mx-auto mt-7'>{children}</main>
     </div>
   );
 }
 
 Layout.defaultProps = {
-  title: `Daniel Broe | Blog`,
+  title: `Blog | Daniel Broe`,
   keywords:
     'personal development, coding, programming, technology, blog, learning, money',
   description:
