@@ -1,22 +1,28 @@
 import Link from 'next/link';
 import Image from 'next/image';
-// import CategoryLabel from './CategoryLabel';
+import CategoryLabel from './CategoryLabel';
 
 interface PostProps {
   post: {
     slug: string;
     frontmatter: {
-      [key: string]: any;
+      [key: string]: string;
     };
   };
+  compact?: boolean;
 }
 
+// category
+// cover_image
+// date
+// excerpt
+// title
+
 // export default function Post({ post, compact = true }: PostProps) {
-export default function Post({ post }: PostProps) {
-  const compact = true;
+export default function Post({ post, compact = false }: PostProps) {
   return (
     <Link href={`/blog/${post.slug}`}>
-      <div className='w-full px-10 py-6 bg-white shadow-lg mt-4 cursor-pointer hover:bg-gray-100'>
+      <div className='w-full h-full px-10 py-6 bg-white shadow-lg mt-4 cursor-pointer hover:bg-gray-100'>
         {!compact && (
           <Image
             src={post.frontmatter.cover_image}
@@ -30,7 +36,7 @@ export default function Post({ post }: PostProps) {
           <span className='font-light text-gray-600'>
             {post.frontmatter.date}
           </span>
-          {/* <CategoryLabel>{post.frontmatter.category}</CategoryLabel> */}
+          <CategoryLabel>{post.frontmatter.category}</CategoryLabel>
         </div>
 
         <div className='mt-2'>
