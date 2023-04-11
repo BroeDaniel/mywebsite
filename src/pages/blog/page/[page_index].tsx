@@ -2,8 +2,8 @@ import fs from 'fs';
 import path from 'path';
 import Post from '@/components/Post';
 import Layout from '@/components/Layouts/Layout';
-import CategoryList from '@/components/Layouts/CategoryList';
 import Pagination from '@/components/Pagtination';
+import CategoryList from '@/components/CategoryList';
 import { getPosts } from '@/lib/posts';
 import { POSTS_PER_PAGE } from '@/utils/config';
 
@@ -18,7 +18,7 @@ export default function BlogPage({
       <div className='flex justify-between flex-col md:flex-row'>
         <div className='w-full'>
           <h1 className='text-5xl border-b-4 p-5 font-bold'>Blog</h1>
-          <div className='flex'>
+          <div className='flex mb-10'>
             <div className='grid md:grid-cols-2 lg:grid-cols-3 gap-5 w-full md:w-3/4 md:mr-10'>
               {posts.map((post: any, index: any) => (
                 <Post key={index} post={post} />

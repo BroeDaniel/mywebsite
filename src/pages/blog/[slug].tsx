@@ -2,23 +2,30 @@
 import fs from 'fs';
 import path from 'path';
 import matter from 'gray-matter';
-// import marked from 'marked';
 import Link from 'next/link';
 import CategoryLabel from '@/components/CategoryLabel';
 import Layout from '@/components/Layouts/Layout';
+import { marked } from 'marked';
+
+interface PostPagePrpos {
+  slug: string;
+  frontmatter: {
+    [key: string]: string;
+  };
+  content: any;
+}
 
 export default function PostPage({
   frontmatter: { title, category, date, cover_image, author, author_image },
   content,
-  slug,
-}: any) {
+}: PostPagePrpos) {
   return (
     <Layout title={title}>
       <Link href='/blog'>Go Back</Link>
       <div className='w-full px-10 py-6 bg-white rounded-lg shadow-md mt-6'>
         <div className='flex justify-between items-center mt-4'>
           <h1 className='text-5xl mb-7'>{title}</h1>
-          <CategoryLabel>{category}</CategoryLabel>
+          <CategoryLabel link={true}>{category}</CategoryLabel>
         </div>
         <img src={cover_image} alt='' className='w-full rounded' />
 
@@ -34,9 +41,9 @@ export default function PostPage({
           <div className='mr-4'>{date}</div>
         </div>
 
-        {/* <div className='blog-text mt-2'>
+        <div className='blog-text mt-2'>
           <div dangerouslySetInnerHTML={{ __html: marked(content) }}></div>
-        </div> */}
+        </div>
       </div>
     </Layout>
   );
