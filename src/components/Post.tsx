@@ -20,6 +20,7 @@ interface PostProps {
 
 // export default function Post({ post, compact = true }: PostProps) {
 export default function Post({ post, compact = false }: PostProps) {
+  console.log(compact);
   return (
     <Link href={`/blog/${post.slug}`}>
       <div className='w-full h-full px-10 py-6 bg-white shadow-lg mt-4 cursor-pointer hover:bg-gray-100'>
@@ -29,10 +30,11 @@ export default function Post({ post, compact = false }: PostProps) {
             alt=''
             height={420}
             width={600}
+            priority
             className='mb-4 rounded'
           />
         )}
-        <div className='flex justify-between items-center'>
+        <div className='flex justify-between items-center mt-1'>
           <span className='font-light text-gray-600'>
             {post.frontmatter.date}
           </span>
