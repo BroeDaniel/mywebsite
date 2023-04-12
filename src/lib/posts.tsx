@@ -1,12 +1,16 @@
 import fs from 'fs';
 import path from 'path';
 import matter from 'gray-matter';
-import { sortByDate } from '@/utils/index';
+import { PostMatter, sortByDate } from '@/utils/index';
+
+interface GreyMatterType {
+  data: { [key: string]: string };
+}
 
 const files = fs.readdirSync(path.join('posts'));
 
 export function getPosts() {
-  const posts = files.map((filename) => {
+  const posts: PostMatter[] = files.map((filename) => {
     const slug = filename.replace('.md', '');
 
     const markdownWithMeta = fs.readFileSync(
@@ -14,7 +18,7 @@ export function getPosts() {
       'utf-8'
     );
 
-    const { data: frontmatter } = matter(markdownWithMeta);
+    const { data: frontmatter }: GreyMatterType = matter(markdownWithMeta);
 
     return {
       slug,

@@ -3,12 +3,19 @@ import type { NextApiRequest, NextApiResponse } from 'next';
 import fs from 'fs';
 import path from 'path';
 import matter from 'gray-matter';
+import { Post as PostType } from '@/pages/index';
+
+interface FrontMatters {
+  frontmatter: {
+    [key: string]: string;
+  };
+}
 
 export default function searchResults(
   req: NextApiRequest,
   res: NextApiResponse
 ) {
-  let posts: any;
+  let posts;
 
   if (process.env.NODE_ENV === 'production') {
     // Fetch from cache
@@ -33,11 +40,11 @@ export default function searchResults(
     });
   }
 
-  const results = posts.filter(
-    ({ frontmatter }: any) =>
-      frontmatter.title.toLowerCase().indexOf(req.query.q) != -1 ||
-      frontmatter.excerpt.toLowerCase().indexOf(req.query.q) != -1 ||
-      frontmatter.category.toLowerCase().indexOf(req.query.q) != -1
+  const results: PostType[] = posts.filter(
+    ({ frontmatter }: FrontMatters) =>
+      frontmatter.title.toLowerCase().indexOf(req.query.q as string) != -1 ||
+      frontmatter.excerpt.toLowerCase().indexOf(req.query.q as string) != -1 ||
+      frontmatter.category.toLowerCase().indexOf(req.query.q as string) != -1
   );
 
   res.status(200).json({ results });

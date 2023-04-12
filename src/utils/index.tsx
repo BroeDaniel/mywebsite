@@ -1,11 +1,9 @@
-type Post = {
+export type PostMatter = {
   slug: string;
-  frontmatter: {
-    [key: string]: any;
-  };
+  frontmatter: { [key: string]: string };
 };
 
-export const sortByDate = (a: Post, b: Post) => {
+export const sortByDate = (a: PostMatter, b: PostMatter) => {
   const aDate: Date = new Date(a.frontmatter.date);
   const bDate: Date = new Date(b.frontmatter.date);
   return bDate.getTime() - aDate.getTime();

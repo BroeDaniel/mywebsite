@@ -3,7 +3,7 @@ import Post from './Post';
 interface ResultProps {
   slug: string;
   frontmatter: {
-    [key: string]: any;
+    [key: string]: string;
   };
 }
 

@@ -4,12 +4,14 @@ import Layout from '@/components/Layouts/Layout';
 import { getPosts } from '@/lib/posts';
 
 interface PostsProps {
-  posts: {
-    slug: string;
-    frontmatter: {
-      [key: string]: any;
-    };
-  }[];
+  posts: Post[];
+}
+
+export interface Post {
+  slug: string;
+  frontmatter: {
+    [key: string]: string;
+  };
 }
 
 export default function HomePage({ posts }: PostsProps) {

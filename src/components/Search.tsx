@@ -2,8 +2,6 @@ import { useState, useEffect } from 'react';
 import { FaSearch } from 'react-icons/fa';
 import SearchResults from './SearchResults';
 
-interface SearchResults {}
-
 export default function Search() {
   const [searchTerm, setSearchTerm] = useState('');
   const [searchResults, setSearchResults] = useState<[]>([]);

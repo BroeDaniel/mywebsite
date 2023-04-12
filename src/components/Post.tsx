@@ -12,15 +12,15 @@ interface PostProps {
   compact?: boolean;
 }
 
-// category
-// cover_image
-// date
-// excerpt
-// title
+// export interface FrontmatterType {
+//   category: string;
+//   cover_image: string;
+//   date: string;
+//   excerpt: string;
+//   title: string;
+// }
 
-// export default function Post({ post, compact = true }: PostProps) {
 export default function Post({ post, compact = false }: PostProps) {
-  console.log(compact);
   return (
     <Link href={`/blog/${post.slug}`}>
       <div className='w-full h-full px-10 py-6 bg-white shadow-lg mt-4 cursor-pointer hover:bg-gray-100'>
