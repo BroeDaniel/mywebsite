@@ -8,7 +8,7 @@ export default function Header() {
   return (
     <header
       style={{ background: 'linear-gradient(45deg, #4a154b, #703259)' }}
-      className='text-gray-100 shadow w-full'>
+      className='text-gray-100 shadow w-full sticky top-0 left-0'>
       <div className='container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center justify-between'>
         <Link
           href='/'
