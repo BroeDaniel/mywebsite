@@ -18,12 +18,14 @@ export default function CategoryBlogPage({
   categoryName,
   categories,
 }: CategoryProps) {
+  const categoryTitle =
+    categoryName.charAt(0).toUpperCase() + categoryName.slice(1);
   return (
     <Layout>
       <div className='flex justify-between flex-col md:flex-row'>
         <div className='w-full'>
           <h1 className='text-5xl border-b-4 p-5 font-bold'>
-            Posts in {categoryName}
+            Posts in {categoryTitle}
           </h1>
           <div className='flex mb-10'>
             <div className='grid md:grid-cols-2 lg:grid-cols-3 gap-5 w-full md:w-3/4 md:mr-10'>
@@ -54,6 +56,8 @@ export async function getStaticPaths() {
     );
 
     const { data: frontmatter } = matter(markdownWithMeta);
+
+    console.log('frontmatter', frontmatter);
 
     return frontmatter.category.toLowerCase();
   });
