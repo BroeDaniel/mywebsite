@@ -5,21 +5,20 @@ interface childrenProps {
   link?: boolean;
 }
 
+export const colorKey: Record<string, string> = {
+  Technology: 'blue',
+  Money: 'green',
+  Entrepreneuship: 'purple',
+  Personal: 'red',
+};
+
 export default function CategoryLabel({
   children,
   link = false,
 }: childrenProps) {
-  const colorKey: Record<string, string> = {
-    JavaScript: 'yellow',
-    CSS: 'blue',
-    Python: 'green',
-    PHP: 'purple',
-    Personal: 'red',
-  };
-
   return (
     <div
-      className={`px-2 py-1 bg-${colorKey[children]}-600 text-gray-100 font-bold rounded`}>
+      className={`px-2 py-1 text-${colorKey[children]}-600 font-bold rounded`}>
       {link ? (
         <Link href={`/blog/category/${children.toLowerCase()}`}>
           {children}
