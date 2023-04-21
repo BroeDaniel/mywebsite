@@ -7,8 +7,13 @@ import CategoryLabel from '@/components/CategoryLabel';
 import Layout from '@/components/Layouts/Layout';
 import { marked } from 'marked';
 import Image from 'next/image';
+import { FaEnvelope, FaLinkedin, FaTwitter } from 'react-icons/fa';
+import { getPosts } from '@/lib/posts';
+import Post from '@/components/Post';
+import { Post as PostType } from '@/pages/index';
 
 interface PostPagePrpos {
+  posts: PostType[];
   slug: string;
   frontmatter: {
     [key: string]: string;
@@ -27,61 +32,94 @@ interface PostPagePrpos {
 export default function PostPage({
   frontmatter: { title, category, date, cover_image },
   content,
+  posts,
 }: PostPagePrpos) {
+  const filteredPosts = posts.filter(
+    (post: any) =>
+      post.frontmatter.category === category && post.frontmatter.title !== title
+  );
+
+  console.log(filteredPosts);
   return (
     <Layout title={title}>
       <div className='flex'>
         <div className='w-3/4 px-10 py-6 bg-white rounded-lg shadow-md mt-6'>
-          <Link href='/blog'>Go Back</Link>
-          <div className='flex justify-between items-center mt-4 mb-7'>
+          <div className='flex justify-between items-center mt-4 mb-6'>
             <h1 className='text-5xl'>{title}</h1>
-            <CategoryLabel link={true}>{category}</CategoryLabel>
+            <Link
+              href='/blog'
+              className='text-center border border-gray-500 text-gray-800 p-2 rounded-md select-none hover:bg-gray-100 focus:outline-none focus:shadow-outline'>
+              Go Back
+            </Link>
           </div>
-          {/* <img src={cover_image} alt=''  className='w-full rounded' /> */}
+
           <Image
             src={cover_image}
             alt='main image post of man holding a lightbulp'
+            className='rounded'
             width={1200}
             height={800}
           />
-
-          <div className='flex justify-between items-center bg-gray-100 p-2 my-8'>
+          <div className='flex justify-between items-center my-3 border-b-2 border-gray-100 pb-3'>
             <div className='mr-4'>{date}</div>
+            <CategoryLabel link={true}>{category}</CategoryLabel>
           </div>
-
           <div className='blog-text mt-2'>
             <div dangerouslySetInnerHTML={{ __html: marked(content) }}></div>
           </div>
         </div>
-        <div className='w-1/4 px-10 py-12 bg-white rounded-lg shadow-md mt-6 flex-col ml-5'>
-          <div className='sticky top-5'>
-            <div className='flex justify-between items-center mt-4 flex-col'>
-              <h2 className='w-full text-4xl mb-2'>Follow</h2>
+        <div className='w-1/4 px-4 py-6 bg-white rounded-lg shadow-md mt-6 flex-col ml-5'>
+          <div className='sticky top-20'>
+            <div className='flex justify-between items-center flex-col'>
+              <h2 className='w-full text-4xl mb-2 pt-5'>Follow</h2>
               <p>
-                Some text here about social medias to follow me on for regular
-                updates, not only blog updates but also tricks, news, hacks etc
+                If you like the post or the blog in general, follow me on other
+                platforms for news, updates and general life hacks
               </p>
-              <div className='flex w-full gap-1'>
-                <div>icon 1</div>
-                <div>icon 2</div>
-                <div>icon 3</div>
-                <div>icon 4</div>
+              <div className='flex w-full gap-1 mt-5 justify-center'>
+                <Link
+                  href='https://www.linkedin.com/in/danielbroe7/'
+                  target='_blank'
+                  className='pr-1'>
+                  <FaLinkedin color='#0072b1' size={'30px'} />
+                </Link>
+                <Link
+                  href='https://twitter.com/DanielBroe7'
+                  target='_blank'
+                  className='px-1'>
+                  <FaTwitter color='#1DA1F2' size={'30px'} />
+                </Link>
+                <Link
+                  href='mailto:BroeDaniel@gmail.com?Subject=Enquire from blogsite'
+                  className='px-1'>
+                  <FaEnvelope color='#4a154b' size={'30px'} />
+                </Link>
               </div>
             </div>
-            <div className='flex justify-between items-center mt-10 flex-col'>
+            <div className='flex justify-between mt-10 flex-col'>
               <h2 className='w-full text-4xl mb-2'>More in {category}</h2>
               <p>
-                Some text here about social medias to follow me on for regular
-                updates, not only blog updates but also tricks, news, hacks etc
+                Below you find the most recent posts within {category} that also
+                can be of interest
               </p>
-              <p>
-                Some text here about social medias to follow me on for regular
-                updates, not only blog updates but also tricks, news, hacks etc
-              </p>
-              <p>
-                Some text here about social medias to follow me on for regular
-                updates, not only blog updates but also tricks, news, hacks etc
-              </p>
+              <hr className='my-2' />
+
+              {filteredPosts.length > 0 ? (
+                filteredPosts.map((post, index) => (
+                  <Link href={`/blog/${post.slug}`} key={index}>
+                    <div className='flex flex-col my-2 drop-shadow py-3'>
+                      <h4 className='text-2xl font-medium pb-2'>
+                        {post.frontmatter.title}
+                      </h4>
+                      <h6>{post.frontmatter.excerpt}</h6>
+                    </div>
+                  </Link>
+                ))
+              ) : (
+                <h4 className='text-2xl font-medium py-3 my-2'>
+                  No related blogposts yet!
+                </h4>
+              )}
             </div>
           </div>
         </div>
@@ -92,6 +130,17 @@ export default function PostPage({
 
 export async function getStaticPaths() {
   const files = fs.readdirSync(path.join('posts'));
+
+  const categories: string[] = files.map((filename) => {
+    const markdownWithMeta = fs.readFileSync(
+      path.join('posts', filename),
+      'utf-8'
+    );
+
+    const { data: frontmatter } = matter(markdownWithMeta);
+
+    return frontmatter.category.toLowerCase();
+  });
 
   const paths = files.map((filename) => ({
     params: {
@@ -112,11 +161,14 @@ export async function getStaticProps({ params: { slug } }: any) {
   );
 
   const { data: frontmatter, content } = matter(markdownWithMeta);
+  const posts = getPosts();
+
   return {
     props: {
       frontmatter,
       content,
       slug,
+      posts,
     },
   };
 }
