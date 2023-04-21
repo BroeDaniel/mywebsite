@@ -6,69 +6,33 @@ cover_image: '/images/posts/img1_blog_intro.jpg'
 category: 'Personal'
 ---
 
-<!-- Markdown generator - https://jaspervdj.be/lorem-markdownum/ -->
+Hello there! This is an introduction to this blog and my very first blogpost, letting you know what you get out of my website, and by keep checking in for the latest information.
 
-Lorem [markdownum](http://insunt.org/inpositaque), et sanguine rutilos dixit
-nigro cornu genus duris linguae. Super hic deus ego adveniens nullumque Venerem
-equis aurem aliisque celare densis dextramque similis **post**: mihi rexerat;
-bis.
+## Introduction
 
-1. Scinditur annos
-2. Talia verba
-3. Habet delata villis domui
-4. Geminum viscere deum et utque
-
-## Magnorum nulla avertit pedem neque monimenta terram
-
-First and foremost, Welcome! This is my personal blog with focus on personal development, spices up with my passion for technology, programming and entrepreneurship. During the posts I will connect my passions with how they can interact with personal development, with the ultimate goal of helping you develop as a person. Besides this intro post, my first blogpost will be about my journey, where you'll read about how I found a passion and to turned it into an ambition.
-
-Quo numquam, nunc [concussaque](http://mox-cunctos.net/), hora effugit mihi,
-pectore. Hinc fausto, circumspicit cadas; virilibus rapui, timidum rorat cuique
-animorum ac! Quem sit. Venit qui, rex sibi tota, peto _fortis ira suis_ dolusque
-simulatque [incipit crudelesque
-pavens](http://www.corpora.com/terrae-oscula.html) spatiosa conlegit oscula
-equam.
+First and foremost, Welcome! This is my personal blog with main focus being on personal development, spices up with my passion for technology, money and entrepreneurship. As an ongoing process, I will connect my passions with, how they can interact with personal development, with the ultimate goal of helping you develop as a person. This does not mean, that a specific blogpost within technology will have a direct link, but that, in general, outline how technology can help improve personal development in some aras. Besides this intro post, my first blogpost will be about my origin and journey towards my current position as a software developer, where you'll read about how I found a passion and to turned it into an ambition.
 
 ## Personal development
 
-This is such as broad topic as it covers so many areas, such as:
+As this topic is the main focus of the blog, I found it nessecary to provide an introduction to personal development, what it means to me and why I find it important to help you benefit from it. This is such as broad topic as it covers so many areas, such as:
 
 1. Time management
 2. Learning
 3. Mindfulness
 4. Stress
 5. Financial management
-6. Positive Thinking
+6. Positive thinking
 7. Networking
 8. Motivation
-9. Self-discipline
-10. Fitness
+9. Fear
+10. Self-discipline
+11. Self-awareness
+12. Fitness
 
-The list is much longer, and the blog will cover a lot more than mentioned here. This is just to give you and indication to, what to expect within this topic. Further, some posts will combined Personal development as a developer, entrepreneur or when deep diving into a technology, to help understand how to utilize the concepts.
+The list is much longer, and the blog will cover a lot more than mentioned here. This is to give you an indication to, what to expect within this topic. Further, some posts will combined personal development as a developer, entrepreneur or when deep diving into a technology, to help understand how to utilize the concepts. A lot of the areas within personal development applies to business. as well as in privacy, so how you prioritize to leverage on personal development is your preference.
 
-Caelestia Ganymedes gentis. Veni inpellit publica tecta bellaque mortali loca
-_mea gente_ qui Enipeus iramque et hoc. _Altera Rex vetitum_; hoc magis dolores
-precor nec. Ubi verba, et aras regia, cognoscere vites tempusque expers, heros?
+## Inspiration
 
-## Mihi puto pallorem
+Write a few lines of why you are inspired to create this blog.
 
-Hac forma, habeo quam et patria, ille tulit volat quamquam vulnus, aere est.
-Ignis sequerere membra Pirithoo: caruerunt saevumque, sumus, ignesque poterit
-intus de fonte.
-
-## Quondam montibus tua spes consilioque nata consilioque
-
-Abigitque limite. Ipsa levis extulit munera, litora, ira pavet in morte, **te
-in** quas [vix](http://auxiliumquefando.net/vocibus-cum). Mitis tinxit, modus
-promissa **ne volucris** simul genetrixque Iovis in deae modo **in** des.
-_Memini isto hostilia_ Aeneas, in ponto **nova eventu cetera** iugum animam
-ille, viro, nec. Loquendi aves insisto saecula premente nec, at ego poscit ubi
-sub!
-
-- Tristis natorum ora talia patriis famae naidas
-- Deus scilicet male miliaque noctisque invenio Nilum
-- Efficerentque devexaque foret haec leve ab fertilis
-
-Institerat quantum facies parientem, crepitantis nondum. Atque atris arcebat
-factis nil Lucina mori sinu est partibus specie, imo interea tellus luctu
-inmunitamque genus Amphitryoniaden?
+Feel free to reach out on various medias for feedback. **I want to optimize my content to provide the best possible outcome for your personal growth.** Hopefully you learn a thing or two along the read, and I would be happy to dig deeper into topics you find is not covevered sufficiently enough.
