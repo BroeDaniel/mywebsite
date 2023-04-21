@@ -7,11 +7,16 @@ p {
   line-height: 1.8;
 }
 
+blockquote {
+  border-left: 5px solid #ccc;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+}
+
 .blog-text ul,
 ol {
   font-size: 110%;
   line-height: 2.3;
-  font-weight: bold;
   margin: 10px 0;
 }
 
@@ -32,19 +37,28 @@ ol {
   font-size: 27px;
 }
 
-/* Fix category colors in production */
-.bg-yellow-600 {
-  background-color: #d97705;
+.text-blue-600 {
+  color: #4785ea;
 }
+.text-green-600 {
+  color: #85bb65;
+}
+.text-purple-600 {
+  color: #7730db;
+}
+.text-red-600 {
+  color: #e14444;
+}
+
 .bg-blue-600 {
-  background: #3929eb;
+  background-color: #4785ea;
 }
 .bg-green-600 {
-  background-color: #049669;
+  background-color: #85bb65;
 }
 .bg-purple-600 {
   background-color: #7730db;
 }
 .bg-red-600 {
-  background-color: #a70b34;
+  background: #e14444;
 }
