@@ -21,7 +21,7 @@ export default function HomePage({ posts }: PostsProps) {
         <h1 className='text-5xl p-5 font-bold'>Recent posts</h1>
         <Link
           href='/blog'
-          className='text-center border border-gray-500 text-gray-800 p-4 rounded-md py-4 m-5 select-none hover:bg-gray-50 focus:outline-none focus:shadow-outline'>
+          className='text-center border border-gray-500 text-gray-800 p-4 rounded-md py-4 m-5 select-none hover:bg-gray-100 focus:outline-none focus:shadow-outline'>
           All posts
         </Link>
       </div>
