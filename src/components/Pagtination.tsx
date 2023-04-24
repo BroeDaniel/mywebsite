@@ -13,6 +13,8 @@ export default function Pagination({ currentPage, numPages }: PaginationProps) {
 
   if (numPages === 1) return <></>;
 
+  console.log('currentPage', currentPage);
+
   return (
     <div className='mt-6 w-3/4'>
       <ul className='flex justify-end pl-0 list-none my-2 mr-10'>
@@ -27,7 +29,7 @@ export default function Pagination({ currentPage, numPages }: PaginationProps) {
           <Link href={`/blog/page/${i + 1}`} key={`page-${i}`}>
             <li
               className={`relative block py-2 px-3 leading-tight bg-white border border-gray-300 text-gray-800 mr-1 hover:bg-gray-200 cursor-pointer ${
-                i + 1 === currentPage ? 'bg-slate-300' : ''
+                i + 1 === currentPage ? 'bg-gray-300' : ''
               }`}>
               {i + 1}
             </li>
