@@ -9,7 +9,6 @@ import { marked } from 'marked';
 import Image from 'next/image';
 import { FaEnvelope, FaLinkedin, FaTwitter } from 'react-icons/fa';
 import { getPosts } from '@/lib/posts';
-import Post from '@/components/Post';
 import { Post as PostType } from '@/pages/index';
 
 interface PostPagePrpos {
@@ -42,13 +41,13 @@ export default function PostPage({
   console.log(filteredPosts);
   return (
     <Layout title={title}>
-      <div className='flex'>
-        <div className='w-3/4 px-10 py-6 bg-white rounded-lg shadow-md mt-6'>
+      <div className='flex flex-col lg:flex-row'>
+        <div className='w-4/4 lg:w-3/4 px-6 py-6 bg-white rounded-lg shadow-md mt-6'>
           <div className='flex justify-between items-center mt-4 mb-6'>
             <h1 className='text-5xl'>{title}</h1>
             <Link
               href='/blog'
-              className='text-center border border-gray-500 text-gray-800 p-2 rounded-md select-none hover:bg-gray-100 focus:outline-none focus:shadow-outline'>
+              className='hidden md:block text-center border border-gray-500 text-gray-800 p-2 rounded-md select-none hover:bg-gray-100 focus:outline-none focus:shadow-outline'>
               Go Back
             </Link>
           </div>
@@ -68,7 +67,7 @@ export default function PostPage({
             <div dangerouslySetInnerHTML={{ __html: marked(content) }}></div>
           </div>
         </div>
-        <div className='w-1/4 px-4 py-6 bg-white rounded-lg shadow-md mt-6 flex-col ml-5'>
+        <div className='lg:w-1/4 px-4 py-6 bg-white rounded-lg shadow-md mt-6 flex-col lg:ml-5 mb-10 lg:mb-0'>
           <div className='sticky top-20'>
             <div className='flex justify-between items-center flex-col'>
               <h2 className='w-full text-4xl mb-2 pt-5'>Follow</h2>
@@ -96,7 +95,7 @@ export default function PostPage({
                 </Link>
               </div>
             </div>
-            <div className='flex justify-between mt-10 flex-col'>
+            <div className='hidden lg:flex justify-between mt-10 flex-col'>
               <h2 className='w-full text-4xl mb-2'>More in {category}</h2>
               <p>
                 Below you find the most recent posts within {category} that also

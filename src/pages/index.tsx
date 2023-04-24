@@ -17,7 +17,7 @@ export interface Post {
 export default function HomePage({ posts }: PostsProps) {
   return (
     <Layout>
-      <div className='flex justify-between'>
+      <div className='flex flex-col sm:flex-row justify-between'>
         <h1 className='text-5xl p-5 font-bold'>Recent posts</h1>
         <Link
           href='/blog'

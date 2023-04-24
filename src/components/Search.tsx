@@ -21,7 +21,7 @@ export default function Search() {
   }, [searchTerm]);
 
   return (
-    <div className='relative lg:w-1/3'>
+    <div className='hidden sm:block relative lg:w-1/3'>
       <div className='container mx-auto flex items-center justify-center md:justify-end'>
         <div className='relative text-gray-600 w-72'>
           <form>
