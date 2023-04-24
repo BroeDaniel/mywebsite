@@ -28,8 +28,8 @@ export default function Pagination({ currentPage, numPages }: PaginationProps) {
         {Array.from({ length: numPages }, (_, i) => (
           <Link href={`/blog/page/${i + 1}`} key={`page-${i}`}>
             <li
-              className={`relative block py-2 px-3 leading-tight bg-white border border-gray-300 text-gray-800 mr-1 hover:bg-gray-200 cursor-pointer ${
-                i + 1 === currentPage ? 'bg-gray-300' : ''
+              className={`relative block py-2 px-3 leading-tight border border-gray-300 text-gray-800 mr-1 hover:bg-gray-200 cursor-pointer ${
+                i + 1 === currentPage ? 'bg-gray-300' : 'bg-white'
               }`}>
               {i + 1}
             </li>
