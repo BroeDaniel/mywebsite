@@ -6,6 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+    "cache-posts": "node src/scripts/cache.js",
     "lint": "next lint"
   },
   "dependencies": {
