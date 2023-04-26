@@ -29,7 +29,7 @@ interface PostPagePrpos {
 // }
 
 export default function PostPage({
-  frontmatter: { title, category, date, cover_image },
+  frontmatter: { title, category, date, cover_image, alt_text },
   content,
   posts,
 }: PostPagePrpos) {
@@ -54,7 +54,7 @@ export default function PostPage({
 
           <Image
             src={cover_image}
-            alt='main image post of man holding a lightbulp'
+            alt={alt_text}
             className='rounded'
             width={1200}
             height={800}
