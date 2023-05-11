@@ -95,10 +95,8 @@ export default function PostPage({
               </div>
             </div>
             <div className='hidden lg:flex justify-between mt-10 flex-col'>
-              <h2 className='w-full text-4xl mb-2'>More in {category}</h2>
               <p>
-                Below you find the most recent posts within {category} that also
-                can be of interest
+                Below you find another and most recent post within the category: {category}
               </p>
               <hr className='my-2' />
 
