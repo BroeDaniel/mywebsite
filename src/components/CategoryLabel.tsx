@@ -18,7 +18,7 @@ export default function CategoryLabel({
 }: childrenProps) {
   return (
     <div
-      className={`px-2 py-1 text-${colorKey[children]}-600 font-bold rounded`}>
+      className={`px-2 py-1 text-${colorKey[children]}-600 font-bold rounded inline-block`}>
       {link ? (
         <Link href={`/blog/category/${children.toLowerCase()}`}>
           {children}
