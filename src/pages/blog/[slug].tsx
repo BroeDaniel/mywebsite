@@ -38,11 +38,10 @@ export default function PostPage({
       post.frontmatter.category === category && post.frontmatter.title !== title
   );
 
-  console.log(filteredPosts);
   return (
     <Layout title={title}>
       <div className='flex flex-col lg:flex-row'>
-        <div className='w-4/4 lg:w-3/4 px-6 py-6 bg-white rounded-lg shadow mt-6 lg:ml-2'>
+        <div className=' w-4/4 lg:w-3/4 px-6 py-6 bg-white rounded-lg shadow mt-6 lg:ml-2'>
           <div className='flex justify-between items-center mt-4 mb-6'>
             <h1 className='text-5xl'>{title}</h1>
             <Link

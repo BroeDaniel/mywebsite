@@ -3,6 +3,7 @@ title: 'Cell-based meat - An intro'
 date: 'May 2, 2023'
 excerpt: 'The Sustainable Technology Revolution transforming the landscape of food'
 cover_image: '/images/posts/img3_cellbasedmeat.jpg'
+alt_text: 'Cell-based meat package'
 category: 'Technology'
 ---
 
@@ -22,7 +23,7 @@ Cell-based meat is a genetically engineered product that uses bio-technology. Th
 
 > "We shall escape the absurdity of growing a whole chicken in order to eat the breast or wing, by growing these parts separately under a suitable medium." <sup>4</sup>
 
-It wasn't until the 2000s, however, that the first cell-based meat prototype was created by a team of Dutch scientists led by <a href="https://www.su.org/experts/mark-post" target="_blankt"><em>Mark Post</em></a>. The team used muscle cells taken from a living cow and grew them into small pieces of meat in the lab. It is created by culturing animal cells in a laboratory to grow meat tissue. The process typically involves:
+It wasn't until the 2000s, however, that the first cell-based meat prototype was created by a team of Dutch scientists led by <a href="https://www.su.org/experts/mark-post" target="_blank"><em>Mark Post</em></a>. The team used muscle cells taken from a living cow and grew them into small pieces of meat in the lab. It is created by culturing animal cells in a laboratory to grow meat tissue. The process typically involves:
 
 1. Taking a small sample of animal cells, usually from muscle tissue (without causing harm to the animal)
 2. Isolate the cells: Next, the cells are separated from the rest of the tissue and placed into a nutrient-rich liquid solution.
@@ -81,7 +82,7 @@ Another potential application is the production of eggs, which could offer simil
 
 In addition to meat, leather, and eggs, cell-based meat technology could have other applications in the production of animal products. For example, it could be used to produce milk, which could have implications for the dairy industry and animal welfare more broadly. By reducing the need for animal farming, this technology could help address some of the ethical and environmental concerns associated with animal agriculture. <br><br>
 
-## Conslusion ##
+## Conclusion ##
 
 Cell-based meat has the potential to revolutionize the food industry by providing a sustainable and ethical alternative to traditional meat production. By eliminating the need for animal slaughter and reducing the environmental impact of livestock farming, cell-based meat could help mitigate the negative effects of meat consumption on the planet.
 
@@ -99,25 +100,26 @@ For those who want to learn more, there are a variety of resources available onl
 
 Sources:
 
-1) <a href="https://www.globalagriculture.org/report-topics/meat-and-animal-feed.html" target="_blankt">https://www.globalagriculture.org/report-topics/meat-and-animal-feed.html</a>
-2) <a href="https://www.ox.ac.uk/news/2011-06-21-lab-grown-meat-would-cut-emissions-and-save-energy" target="_blankt">https://www.ox.ac.uk/news/2011-06-21-lab-grown-meat-would-cut-emissions-and-save-energy</a>
-3) <a href="https://gizmodo.com/the-future-will-be-full-of-lab-grown-meat-1720874704" target="_blankt">https://gizmodo.com/the-future-will-be-full-of-lab-grown-meat-1720874704</a>
-4) <a href="https://new-harvest.org/winston-churchill-prediction/" target="_blankt">https://new-harvest.org/winston-churchill-prediction/</a>
-5) <a href="https://www.livescience.com/lab-grown-meat" target="_blankt">https://www.livescience.com/lab-grown-meat</a>
-6) <a href="https://www.labiotech.eu/in-depth/cultured-meat-industry/" target="_blankt">https://www.labiotech.eu/in-depth/cultured-meat-industry/</a>
+1) <a href="https://www.globalagriculture.org/report-topics/meat-and-animal-feed.html" target="_blank">https://www.globalagriculture.org/report-topics/meat-and-animal-feed.html</a>
+2) <a href="https://www.ox.ac.uk/news/2011-06-21-lab-grown-meat-would-cut-emissions-and-save-energy" target="_blank">https://www.ox.ac.uk/news/2011-06-21-lab-grown-meat-would-cut-emissions-and-save-energy</a>
+3) <a href="https://gizmodo.com/the-future-will-be-full-of-lab-grown-meat-1720874704" target="_blank">https://gizmodo.com/the-future-will-be-full-of-lab-grown-meat-1720874704</a>
+4) <a href="https://new-harvest.org/winston-churchill-prediction/" target="_blank">https://new-harvest.org/winston-churchill-prediction/</a>
+5) <a href="https://www.livescience.com/lab-grown-meat" target="_blank">https://www.livescience.com/lab-grown-meat</a>
+6) <a href="https://www.labiotech.eu/in-depth/cultured-meat-industry/" target="_blank">https://www.labiotech.eu/in-depth/cultured-meat-industry/</a>
+
 
 Other sources used: <br>
-- <a href="https://www.livescience.com/lab-grown-meat" target="_blankt">https://www.livescience.com/lab-grown-meat</a>
-- <a href="https://www.bonappetit.com/story/lab-grown-meat" target="_blankt">https://www.bonappetit.com/story/lab-grown-meat</a>
-- <a href="https://www.mckinsey.com/industries/agriculture/our-insights/cultivated-meat-out-of-the-lab-into-the-frying-pan" target="_blankt">https://www.mckinsey.com/industries/agriculture/our-insights/cultivated-meat-out-of-the-lab-into-the-frying-pan</a>
-- <a href="https://www.reuters.com/business/retail-consumer/lab-grown-meat-moves-closer-american-dinner-plates-2023-01-23/" target="_blankt">https://www.reuters.com/business/retail-consumer/lab-grown-meat-moves-closer-american-dinner-plates-2023-01-23/</a>
-- <a href="https://thebreakthrough.org/blog/whats-new-in-cultivated-meat" target="_blankt">https://thebreakthrough.org/blog/whats-new-in-cultivated-meat</a>
-- <a href="https://gfi.org/resource/cultivated-meat-eggs-and-dairy-state-of-the-industry-report/" target="_blankt">https://gfi.org/resource/cultivated-meat-eggs-and-dairy-state-of-the-industry-report/</a>
-- <a href="https://www.labiotech.eu/in-depth/cultured-meat-industry/" target="_blankt">https://www.labiotech.eu/in-depth/cultured-meat-industry/</a>
-- <a href="http://foodhealthlegal.eu/?cat=17" target="_blankt">http://foodhealthlegal.eu/?cat=17</a>
-- <a href="https://www.farm-europe.eu/news/cell-based-products-novel-food-regulation-is-not-fit-for-purpose/" target="_blankt">https://www.farm-europe.eu/news/cell-based-products-novel-food-regulation-is-not-fit-for-purpose/</a>
-- <a href="https://www.fda.gov/food/food-ingredients-packaging/human-food-made-cultured-animal-cells" target="_blankt">https://www.fda.gov/food/food-ingredients-packaging/human-food-made-cultured-animal-cells</a>
-- <a href="https://gfi.org/wp-content/uploads/2023/01/2022-Cultivated-Meat-State-of-the-Industry-Report.pdf" target="_blankt">https://gfi.org/wp-content/uploads/2023/01/2022-Cultivated-Meat-State-of-the-Industry-Report.pdf</a>
+- <a href="https://www.livescience.com/lab-grown-meat" target="_blank">https://www.livescience.com/lab-grown-meat</a>
+- <a href="https://www.bonappetit.com/story/lab-grown-meat" target="_blank">https://www.bonappetit.com/story/lab-grown-meat</a>
+- <a href="https://www.mckinsey.com/industries/agriculture/our-insights/cultivated-meat-out-of-the-lab-into-the-frying-pan" target="_blank">https://www.mckinsey.com/</a>
+- <a href="https://www.reuters.com/business/retail-consumer/lab-grown-meat-moves-closer-american-dinner-plates-2023-01-23/" target="_blank">https://www.reuters.com/business/retail-consumer/lab-grown-meat-moves-closer-american-dinner-plates-2023-01-23/</a>
+- <a href="https://thebreakthrough.org/blog/whats-new-in-cultivated-meat" target="_blank">https://thebreakthrough.org/blog/whats-new-in-cultivated-meat</a>
+- <a href="https://gfi.org/resource/cultivated-meat-eggs-and-dairy-state-of-the-industry-report/" target="_blank">https://gfi.org/resource/cultivated-meat-eggs-and-dairy-state-of-the-industry-report/</a>
+- <a href="https://www.labiotech.eu/in-depth/cultured-meat-industry/" target="_blank">https://www.labiotech.eu/in-depth/cultured-meat-industry/</a>
+- <a href="http://foodhealthlegal.eu/?cat=17" target="_blank">http://foodhealthlegal.eu/?cat=17</a>
+- <a href="https://www.farm-europe.eu/news/cell-based-products-novel-food-regulation-is-not-fit-for-purpose/" target="_blank">https://www.farm-europe.eu/news/cell-based-products-novel-food-regulation-is-not-fit-for-purpose/</a>
+- <a href="https://www.fda.gov/food/food-ingredients-packaging/human-food-made-cultured-animal-cells" target="_blank">https://www.fda.gov/food/food-ingredients-packaging/human-food-made-cultured-animal-cells</a>
+- <a href="https://gfi.org/wp-content/uploads/2023/01/2022-Cultivated-Meat-State-of-the-Industry-Report.pdf" target="_blank">https://gfi.org/wp-content/uploads/2023/01/2022-Cultivated-Meat-State-of-the-Industry-Report.pdf</a>
 
 
 Recent studies <br>
