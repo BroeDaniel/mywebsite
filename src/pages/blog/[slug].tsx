@@ -42,7 +42,7 @@ export default function PostPage({
   return (
     <Layout title={title}>
       <div className='flex flex-col lg:flex-row'>
-        <div className='w-4/4 lg:w-3/4 px-6 py-6 bg-white rounded-lg shadow-md mt-6'>
+        <div className='w-4/4 lg:w-3/4 px-6 py-6 bg-white rounded-lg shadow mt-6 lg:ml-2'>
           <div className='flex justify-between items-center mt-4 mb-6'>
             <h1 className='text-5xl'>{title}</h1>
             <Link
@@ -67,7 +67,7 @@ export default function PostPage({
             <div dangerouslySetInnerHTML={{ __html: marked(content) }}></div>
           </div>
         </div>
-        <div className='lg:w-1/4 px-4 py-6 bg-white rounded-lg shadow-md mt-6 flex-col lg:ml-5 mb-10 lg:mb-0'>
+        <div className='lg:w-1/4 px-4 py-6 bg-white rounded-lg shadow mt-6 flex-col lg:ml-5 mb-10 lg:mb-0'>
           <div className='sticky top-20'>
             <div className='flex justify-between items-center flex-col'>
               <h2 className='w-full text-4xl mb-2 pt-5'>Follow</h2>
