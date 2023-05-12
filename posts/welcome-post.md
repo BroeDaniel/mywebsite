@@ -34,6 +34,6 @@ The list is much longer, and the blog will cover a lot more than mentioned here.
 
 ## Inspiration
 
-Write a few lines of why you are inspired to create this blog.
+So why another blog? I mean, there are so many, right? For me, it is about several reasons for having a blog. First; I believe that keep learning is a must for us to evolving, and having a blog is a way to force me into just that, by being obligated to understanding topics and research them. Second; by evolving myself I get the opportunity to pass it along to my family and kids, in particular. Third, You might also get something out of it, so it can be a way to reach a bigger audience and help other people into a better state of mind or growing as a person. Finally; it also provides with the potential to expose myself to the public as my ambitions goes beyong a blog, as I also want to persue my business ideas along the way.
 
 Feel free to reach out on various medias for feedback. **I want to optimize my content to provide the best possible outcome for your personal growth.** Hopefully you learn a thing or two along the read, and I would be happy to dig deeper into topics you find is not covevered sufficiently enough.

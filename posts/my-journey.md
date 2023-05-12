@@ -43,11 +43,9 @@ For inspiration and motivation, I used some content creators, entrepreneurs and 
 
 - <a href="https://wesbos.com/" target="_blank">**Wes Bos**</a>, fullstack javascript developer and co-host of SyntaxFM, content from podcast and own courses
 - <a href="https://www.traversymedia.com/" target="_blank">**Brad Traversy**</a>, developer with javascript focus and expands from there. Used content from Youtube and Udemy
-- <a href="https://www.tonyrobbins.com/" target="_blankt">**Tony Robbins**</a>, entrepreneur, life-coach, speaker and leading teacher within personal development.
-- Morten Münster, writer and leading figure in The Nordics within behavioral design, human behavior and the psychological aspect of people's actions.
-- Lars Tvede, entrepreneur, investor and author. Written many books within business and touches upon personal development from a business, political and investment point of view.
-- Martin Thorborg
-- Dale Carnegie
+- <a href="https://www.tonyrobbins.com/" target="_blank">**Tony Robbins**</a>, entrepreneur, life-coach, speaker and leading teacher within personal development.
+- <a href="https://mortenmunster.com/" target="_blank">**Morten Münster**</a>, writer and leading figure in The Nordics within behavioral design, human behavior and the psychological aspect of people's actions.
+- <a href="https://www.larstvede.com/" target="_blank">**Lars Tvede**</a>, entrepreneur, investor and author. Written many books within business and touches upon personal development from a business, political and investment point of view.
 
 All of them got my highest recommendations and is definitely worth a follow on the social media channels, or even better just try some of their content out. Most of them got some free content, so you can easily figure out if their work is something for you. Going back to my goals for the blog, I would say the if I can get to a point where I offer such quality content that I can help just 1 % of what just one of the above does today, I would call the blog-project a huge success.
 
