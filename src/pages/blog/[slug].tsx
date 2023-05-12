@@ -95,15 +95,15 @@ export default function PostPage({
               </div>
             </div>
             <div className='hidden lg:flex justify-between mt-10 flex-col'>
-              <p>
-                Below you find another and most recent post within the category: <CategoryLabel link={true}>{category}</CategoryLabel>
-              </p>
-              <hr className='my-2' />
-
+              <span>
+                Below you find another and most recent post within the category:{' '}
+                <CategoryLabel link={true}>{category}</CategoryLabel>
+              </span>
+              <hr className='my-5' />
               {filteredPosts.length > 0 ? (
                 filteredPosts.map((post, index) => (
                   <Link href={`/blog/${post.slug}`} key={index}>
-                    <div className='flex flex-col my-2 drop-shadow py-3'>
+                    <div className='flex flex-col my-2 drop-shadow-sm py-3 px-2'>
                       <h4 className='text-2xl font-medium pb-2'>
                         {post.frontmatter.title}
                       </h4>
