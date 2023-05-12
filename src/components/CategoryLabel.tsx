@@ -10,6 +10,7 @@ export const colorKey: Record<string, string> = {
   Money: 'green',
   Entrepreneuship: 'purple',
   Personal: 'red',
+  Books: 'orange',
 };
 
 export default function CategoryLabel({

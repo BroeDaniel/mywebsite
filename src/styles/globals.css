@@ -20,18 +20,19 @@ ol {
   margin: 10px 0;
 } */
 
-ol {
+.blog-text ol {
   list-style: decimal;
   padding-left: 40px;
   margin: 30px 0;
 }
 
-ul {
+.blog-text ul {
   padding-left: 40px;
   margin: 30px 0;
 }
 
-ol li, ul li {
+.blog-text ol li,
+.blog-text ul li {
   margin: 10px 0;
 }
 
@@ -64,6 +65,9 @@ ol li, ul li {
 .text-red-600 {
   color: #e14444;
 }
+.text-orange-600 {
+  color: #c7720a;
+}
 
 .bg-blue-600 {
   background-color: #4785ea;
@@ -77,7 +81,10 @@ ol li, ul li {
 .bg-red-600 {
   background: #e14444;
 }
+.bg-orange-600 {
+  background: #c7720a;
+}
 
-.m-auto{
+.m-auto {
   margin: auto;
 }
