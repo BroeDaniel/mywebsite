@@ -21,6 +21,10 @@ interface PostProps {
 // }
 
 export default function Post({ post, compact = false }: PostProps) {
+  const newTitle = post.frontmatter.title.includes(';')
+    ? post.frontmatter.title.replace(';', ': ')
+    : post.frontmatter.title;
+
   return (
     <Link href={`/blog/${post.slug}`}>
       <div className='w-full h-full px-10 py-6 bg-white shadow-lg mt-4 cursor-pointer hover:bg-gray-100'>
@@ -42,9 +46,7 @@ export default function Post({ post, compact = false }: PostProps) {
         </div>
 
         <div className='mt-2'>
-          <p className='text-2xl text-gray-700 font-bold m-0'>
-            {post.frontmatter.title}
-          </p>
+          <p className='text-2xl text-gray-700 font-bold m-0'>{newTitle}</p>
 
           <p className='mt-2 text-gray-600'>{post.frontmatter.excerpt}</p>
         </div>

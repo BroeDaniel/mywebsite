@@ -21,10 +21,14 @@ export default function Layout({
         <title>{title}</title>
         <meta name='keywords' content={keywords} />
         <meta name='description' content={description} />
-        <link rel='icon' href='/favicon_white.ico' media="(prefers-color-scheme: light)"/>
+        <link
+          rel='icon'
+          href='/favicon_white.ico'
+          media='(prefers-color-scheme: light)'
+        />
       </Head>
       <Header />
-      <main className='container mx-auto mt-7'>{children}</main>
+      <main className='container mx-auto'>{children}</main>
     </div>
   );
 }

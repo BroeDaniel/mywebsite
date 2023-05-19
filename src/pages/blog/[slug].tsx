@@ -38,15 +38,24 @@ export default function PostPage({
       post.frontmatter.category === category && post.frontmatter.title !== title
   );
 
+  const newTitle = title.includes(';') ? title.split(';') : undefined;
+
   return (
     <Layout title={title}>
       <div className='flex flex-col lg:flex-row'>
         <div className=' w-4/4 lg:w-3/4 px-6 py-6 bg-white rounded-lg shadow mt-6 lg:ml-2'>
           <div className='flex justify-between items-center mt-4 mb-6'>
-            <h1 className='text-5xl'>{title}</h1>
+            {newTitle ? (
+              <div className='flex flex-col'>
+                <h1 className='text-5xl mb-1'>{newTitle[0]}</h1>
+                <h2 className='text-4xl'>{newTitle[1]}</h2>
+              </div>
+            ) : (
+              <h1 className='text-5xl'>{title}</h1>
+            )}
             <Link
               href='/blog'
-              className='hidden md:block text-center border border-gray-500 text-gray-800 p-2 rounded-md select-none hover:bg-gray-100 focus:outline-none focus:shadow-outline'>
+              className='hidden md:block text-center border border-gray-500 text-gray-800 p-2 rounded-md select-none hover:bg-gray-100 focus:outline-none focus:shadow-outline min-w-fit'>
               Go Back
             </Link>
           </div>
