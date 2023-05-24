@@ -11,38 +11,36 @@ Before delving into the debate of long-term versus short-term investments, it is
 
 > **Goal setting is a powerful process for thinking about your ideal future, and for motivating yourself to turn your vision into reality.**
 
-By understanding and defining your financial objectives, you can align your investment strategies to maximize the likelihood of achieving them. Further, by knowing your financial objectives, you establish an awareness that helps you understand your degree of financial education and if you need to extend on your current knowledge within the area, before starting your investment journey.
+By understanding and defining your financial objectives, you can align your investment strategies to maximize the likelihood of achieving them. Further, by knowing your financial objectives, you establish an awareness that helps you understand your degree of Financial literacy, and if you need to extend on your current knowledge within the area, before starting your investment journey.
 
-Financial Education is a term often used by an American entrepreneur and businessman, Robert Kiyosaki, who wrote the bestseller: <em>“Rich Dad Poor Dad”</em>.<br>
-The term financial education will be covered in-depth in a later article, but for now the most important thing to know about financial education is the process of acquiring knowledge and skills related to personal finance and money management.
+Financial literacy - as emphasized by renowned entrepreneur and author Robert Kiyosaki in his bestseller <em>“Rich Dad Poor Dad”</em> - underlines the importance of acquiring financial education and applying that knowledge to one's personal finances. While we will delve deeper into the concept of financial literacy in a future article, it is essential to understand that it encompasses the ability to comprehend and gain expertise in matters of personal finance and money management.
 
-## Assess your financial situation
+I mainly divide financial goal setting into these 4 pillars:
 
-Cell-based meat is a genetically engineered product that uses bio-technology. The concept is not new. In 1931, Winston Churchill predicted:
+1. Assessment of your financial situation.
+2. Defining and quantifying financial goals.
+3. Investment strategies.
+4. Tracking and guidance.
 
-> "We shall escape the absurdity of growing a whole chicken in order to eat the breast or wing, by growing these parts separately under a suitable medium." <sup>4</sup>
+## Assessment of your financial situation
 
-It wasn't until the 2000s, however, that the first cell-based meat prototype was created by a team of Dutch scientists led by <a href="https://www.su.org/experts/mark-post" target="_blank"><em>Mark Post</em></a>. The team used muscle cells taken from a living cow and grew them into small pieces of meat in the lab. It is created by culturing animal cells in a laboratory to grow meat tissue. The process typically involves:
+The process of assessing your financial situation is a critical step towards successful investing. It involves evaluating your current financial status, and to gain a comprehensive understanding of your resources, obligations, and overall financial health. The main areas of focus are <em>income</em>, <em>expense</em>, <em>asset</em>, <em>liabilities</em> and <em>cash flow</em>.
 
-1. Taking a small sample of animal cells, usually from muscle tissue (without causing harm to the animal)
-2. Isolate the cells: Next, the cells are separated from the rest of the tissue and placed into a nutrient-rich liquid solution.
-3. Multiply the cells: The cells are then encouraged to grow and divide using various growth factors and other nutrients.
-4. Form the meat: Once the cells have multiplied enough, they can be shaped into the desired meat product using a variety of techniques. For example, the cells can be pressed into thin sheets, stacked to form muscle fibers, or combined with other ingredients to create ground meat.
-5. Harvest the meat: Finally, the meat is harvested and processed using techniques similar to traditional meat production methods, such as cooking or packaging for sale.
+**Budget**
+In Denmark, we're faily familiar with assessing our financial situation as it is often required by banks if want to aquire a loan for an apartment of house. This is usually done by creating a detailed budget. The budget will cover income and expenses and your net income in form of the monthly income sources (salary, investments, rental income etc), subtracted with the montly expenses (rent, mortgage, utilities, instalments from debt, interest rates, subscriptions groceries etc).
 
-The resulting product is biologically identical to conventional meat, but without the need for raising and slaughtering animals.
+The more details you provide your budget with, the better the overview of you finacial situation you will get. Tracking your income and expenses over time will help you identify your fixed and variable sources of your cash flow. In my own situation, for example, I know the dentist or hairdresser is not a monthly expense, but I have calculated the expense to what I would be on a monthly basis, to add it into the budget. If the dentist bill is $300 every six months, I know my budget can have a added expense of $50 a month.
 
-<image class="m-auto" src="/images/posts/labmeatpath.jpg" alt="the path of cell-based meat" />
+The full overview of the budget and cash flow is a great way to understand where your money is being allocated along with how much moneycan be invested or saved, depending on your financial goals (covered in step 2). It can also provide you with a better understanding of your spending habits and identify areas, where you can reduce discretionary expenses or make adjustments
 
-Note: This process can vary depending on the technology being used, as there a many approaches to create cell-based meat, such as Scaffold-based, Self-organizing, Bioreactor-based, Nanofiber-based, Decellularization and recellularization to name a few.
+**Assets and liabilities**
+These might not be visible in the budget, so it can be relevant to create a seperate list for them. A saving acount, stocks, bonds or other valuable possesions can be listed here. Same goes with a rental property, in terms of its value, but not the rental income, which is listed as an income. Same logic applies to liabilities such as the value of a loan, debt or other obligations. Analyzing your assets and liabilities provides a snapshot of your net worth and helps determine your overall financial position.
 
-One of the key differences from conventional meat is the nutritional content. Cell-based meat can be designed to have a specific nutritional profile, with researchers able to control the amount of fat, protein, and other nutrients in the meat. Additionally, it does not contain antibiotics or hormones, which are commonly used in conventional meat production.
-
-> “The process of making cultivated meat is similar to brewing beer, in that this is an industrial cell culture process based upon well-hewn fermentation technology. However, instead of growing yeast or bacteria, we grow animal cells. We start by taking a small amount of cells from high-quality livestock animals, like a cow or chicken, and then figure out which of those cells have the ability to multiply and form delicious meat food products. From there, we put the cells in a clean-and-controlled environment and provide them with the essential nutrients they need to naturally replicate and mature" - Eric Schuzle, the Vice-President of product and regulation at UPSIDE Foods <sup>5</sup>
+By thoroughly assessing these aspects of your financial situation, you gain a clear understanding of your current financial standing. This assessment serves as a foundation for setting meaningful financial goals, developing appropriate investment strategies, and making informed financial decisions. It also helps identify areas for improvement and highlights areas where adjustments or corrective actions may be needed to enhance your overall financial well-being.
 
 <br>
 
-## Key benefits
+## Defining and quantifying financial goals
 
 Reduced environmental impact: Traditional meat production is a major contributor to greenhouse gas emissions, land use, and water consumption. Cell-based meat has the potential to significantly reduce these environmental impacts. According to some estimates, cell-based meat could reduce greenhouse gas emissions by up to 96%, land use by up to 99%, and water consumption by up to 96%.
 
