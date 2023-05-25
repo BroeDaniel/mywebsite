@@ -27,7 +27,7 @@ export default function Post({ post, compact = false }: PostProps) {
 
   return (
     <Link href={`/blog/${post.slug}`}>
-      <div className='w-full h-full px-10 py-6 bg-white shadow-lg mt-4 cursor-pointer bg-hover'>
+      <div className='w-full h-full px-10 py-6 bg-white shadow-lg mt-4 cursor-pointer bg-hover mx-1'>
         {!compact && (
           <Image
             src={post.frontmatter.cover_image}
