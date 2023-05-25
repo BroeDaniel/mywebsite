@@ -55,7 +55,7 @@ export default function PostPage({
             )}
             <Link
               href='/blog'
-              className='hidden md:block text-center border border-gray-500 text-gray-800 p-2 rounded-md select-none hover:bg-gray-100 focus:outline-none focus:shadow-outline min-w-fit'>
+              className='hidden md:block text-center border border-gray-500 text-gray-800 p-2 rounded-md select-none bg-hover focus:outline-none focus:shadow-outline min-w-fit'>
               Go Back
             </Link>
           </div>

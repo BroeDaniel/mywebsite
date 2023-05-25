@@ -57,6 +57,10 @@ ol {
   font-size: 27px;
 }
 
+.bg-hover:hover {
+  background: rgba(97, 39, 83, 0.1);
+}
+
 .text-blue-600 {
   color: #4785ea;
 }
