@@ -57,6 +57,10 @@ ol {
   font-size: 27px;
 }
 
+.blog-text a {
+  text-decoration: underline;
+}
+
 .bg-hover:hover {
   background: rgba(97, 39, 83, 0.1);
 }
