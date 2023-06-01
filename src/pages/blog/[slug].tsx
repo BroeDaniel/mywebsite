@@ -26,10 +26,11 @@ interface PostPagePrpos {
 //   date: string;
 //   excerpt: string;
 //   title: string;
+// ER OPDATERET MED SEO
 // }
 
 export default function PostPage({
-  frontmatter: { title, category, date, cover_image, alt_text },
+  frontmatter: { title, category, date, cover_image, alt_text, meta_desc },
   content,
   posts,
 }: PostPagePrpos) {
@@ -40,8 +41,10 @@ export default function PostPage({
 
   const newTitle = title.includes(';') ? title.split(';') : undefined;
 
+  debugger;
+
   return (
-    <Layout title={title}>
+    <Layout title={`${title} | Daniel Broe's blog `} description={meta_desc}>
       <div className='flex flex-col lg:flex-row'>
         <div className=' w-4/4 lg:w-3/4 px-6 py-6 bg-white rounded-lg shadow mt-6 lg:ml-2'>
           <div className='flex justify-between items-center mt-4 mb-6'>

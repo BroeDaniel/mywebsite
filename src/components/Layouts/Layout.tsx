@@ -34,9 +34,9 @@ export default function Layout({
 }
 
 Layout.defaultProps = {
-  title: `Blog | Daniel Broe`,
+  title: `Daniel Broe | Blog -  Personal Development and Technology Insights`,
   keywords:
-    'personal development, coding, programming, technology, blog, learning, money',
+    'Personal development, Coding, Programming, Technology, Blog, Learning, Money, Financial independence, Tech news, Innovation, Productivity, Online learning, Software development, Self-improvement, Entrepreneurship, Artificial intelligence, Digital skill',
   description:
-    'The best info and learning within personal development and technology',
+    'Explore a wealth of practical knowledge on personal development and technology. Gain valuable insights, actionable tips, and expert guidance to enhance your growth and stay informed.',
 };
