@@ -5,6 +5,8 @@ excerpt: 'Background about, my road to my current role and the plans going forwa
 cover_image: '/images/posts/img2_journey.png'
 alt_text: 'the journey cover image'
 category: 'Personal'
+meta_desc: 'Join Daniel Broe on his personal development journey as a full-stack developer. Discover the origins of his blog, his academic background, career transition, and roadmap for growth. Gain inspiration, motivation, and valuable insights to achieve your goals.'
+meta_keywords: 'Personal development, Full-stack developer, Blog, Origins, Academic background, Career transition, Roadmap, Growth, Inspiration, Motivation, Goals'
 ---
 
 Besides my very first introduction <a href="/blog/welcome-post" target="_blank"><em>post</em></a>, this is the first blogpost on my journey, and why not start with my origins to let you know who the author behind the blog is, and my reasonings behind development of the blog. I will divide this post into four main areas of topics.

@@ -5,6 +5,8 @@ excerpt: 'Introduction to the blog and what you get out of keeping up to date wi
 cover_image: '/images/posts/img1_blog_intro.jpg'
 alt_text: 'the introduction cover image'
 category: 'Personal'
+meta_desc: 'Welcome to my personal blog focused on personal development, technology, money, and entrepreneurship. Join me on a journey of self-improvement as I explore topics such as time management, learning, mindfulness, motivation, and more. Discover how personal development can enhance various aspects of your life.'
+meta_keywords: 'Personal development, Personal blog, Technology, Money, Entrepreneurship, Self-improvement, Time management, Inspiration, Motivation, Goals, Learning, Mindfulness, Stress, Financial management, Financial education, Positive thinking, Networking, Fear, Fitness, Self-discipline, Self-awareness'
 ---
 
 Hello there! This is an introduction to this blog and my very first blogpost, letting you know what you get out of my website, and by keep checking in for the latest information.
