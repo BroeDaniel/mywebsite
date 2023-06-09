@@ -4,8 +4,7 @@ import Link from 'next/link';
 export default function AboutPage() {
   return (
     <Layout title='About - DanielBroe'>
-      <h1 className='text-5xl border-b-4 pb-5 font-bold'>About</h1>
-
+      <h1 className='text-5xl border-b-4 p-5 font-bold'>About</h1>
       <div className='bg-white shadow-md rounded-lg px-10 py-6 mt-6'>
         <h3 className='text-2xl'>Who am I</h3>
         <p className='mb-5'>
@@ -33,11 +32,13 @@ export default function AboutPage() {
         </p>
         <p className='mt-2 mb-5'>
           Main topic of the blog is <em>Personal development</em> combined with
-          my passion for technology, programming and entrepreneurship. These
-          will be the set of categories within the blog, but all of which
-          contains a subset of topics such as: Time management, learning new
-          skills, Mindfulness, Stress & Financial management are all part of{' '}
-          <em>Personal development.</em>
+          my passion for technology, money and entrepreneurship. These will be
+          the set of categories within the blog, but all of which contains a
+          subset of topics such as: Time management, learning new skills,
+          mindfulness, programming, stress & financial management.
+        </p>
+        <p className='font-bold'>
+          Through my blog and services is how i can help your personal growth.
         </p>
       </div>
     </Layout>
