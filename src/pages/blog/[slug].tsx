@@ -10,10 +10,11 @@ import Image from 'next/image';
 import { FaEnvelope, FaLinkedin, FaTwitter } from 'react-icons/fa';
 import { getPosts } from '@/lib/posts';
 import { Post as PostType } from '@/pages/index';
+import { estimateReadingTime } from '@/utils';
 
 interface PostPagePrpos {
   posts: PostType[];
-  slug: string;
+  // slug: string;
   frontmatter: {
     [key: string]: string;
   };
@@ -30,7 +31,15 @@ interface PostPagePrpos {
 // }
 
 export default function PostPage({
-  frontmatter: { title, category, date, cover_image, alt_text, meta_desc },
+  frontmatter: {
+    title,
+    title_meta,
+    category,
+    date,
+    cover_image,
+    alt_text,
+    meta_desc,
+  },
   content,
   posts,
 }: PostPagePrpos) {
@@ -41,10 +50,10 @@ export default function PostPage({
 
   const newTitle = title.includes(';') ? title.split(';') : undefined;
 
-  debugger;
-
   return (
-    <Layout title={`${title} | Daniel Broe's blog `} description={meta_desc}>
+    <Layout
+      title={`${title_meta} | Daniel Broe's blog `}
+      description={meta_desc}>
       <div className='flex flex-col lg:flex-row'>
         <div className=' w-4/4 lg:w-3/4 px-6 py-6 bg-white rounded-lg shadow mt-6 lg:ml-2'>
           <div className='flex justify-between items-center mt-4 mb-6'>
@@ -72,6 +81,9 @@ export default function PostPage({
           />
           <div className='flex justify-between items-center my-3 border-b-2 border-gray-100 pb-3'>
             <div className='mr-4'>{date}</div>
+            <div className='mr-4 text-gray-600 italic'>
+              Reading time: {estimateReadingTime(content)}min
+            </div>
             <CategoryLabel link={true}>{category}</CategoryLabel>
           </div>
           <div className='blog-text mt-2'>

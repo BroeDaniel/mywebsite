@@ -31,7 +31,7 @@ export default function Post({ post, compact = false }: PostProps) {
         {!compact && (
           <Image
             src={post.frontmatter.cover_image}
-            alt=''
+            alt={post.frontmatter.alt_text}
             height={420}
             width={600}
             priority
@@ -44,10 +44,8 @@ export default function Post({ post, compact = false }: PostProps) {
           </span>
           <CategoryLabel>{post.frontmatter.category}</CategoryLabel>
         </div>
-
         <div className='mt-2'>
           <p className='text-2xl text-gray-700 font-bold m-0'>{newTitle}</p>
-
           <p className='mt-2 text-gray-600'>{post.frontmatter.excerpt}</p>
         </div>
       </div>
