@@ -1,5 +1,6 @@
 ---
 title: 'Financial Goal Setting;The First Step Towards Successful Investing'
+title_meta: 'Financial Goal Setting: The First Step Towards Successful Investing'
 date: 'May 22, 2023'
 excerpt: 'The most crucial first step towards setting the foundation for successful investing.'
 cover_image: '/images/posts/img4_financial_goal.jpg'

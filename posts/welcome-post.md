@@ -1,5 +1,6 @@
 ---
 title: 'Welcome and why this blog?'
+title_meta: 'Welcome to my blog'
 date: 'April 20, 2023'
 excerpt: 'Introduction to the blog and what you get out of keeping up to date with the information.'
 cover_image: '/images/posts/img1_blog_intro.jpg'

@@ -1,5 +1,6 @@
 ---
 title: 'My journey'
+title_meta: 'My journey'
 date: 'April 25, 2023'
 excerpt: 'Background about, my road to my current role and the plans going forward.'
 cover_image: '/images/posts/img2_journey.png'

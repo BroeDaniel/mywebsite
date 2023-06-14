@@ -1,5 +1,6 @@
 ---
 title: 'Cell-based meat - An intro'
+title_meta: 'Cell-based meat - An introduction'
 date: 'May 2, 2023'
 excerpt: 'The Sustainable Technology Revolution transforming the landscape of food'
 cover_image: '/images/posts/img3_cellbasedmeat.jpg'
