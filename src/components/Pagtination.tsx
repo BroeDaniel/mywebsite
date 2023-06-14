@@ -13,8 +13,6 @@ export default function Pagination({ currentPage, numPages }: PaginationProps) {
 
   if (numPages === 1) return <></>;
 
-  console.log('currentPage', currentPage);
-
   return (
     <div className='mt-6 w-3/4'>
       <ul className='flex justify-end pl-0 list-none my-2 mr-10'>

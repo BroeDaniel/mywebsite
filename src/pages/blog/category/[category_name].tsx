@@ -57,8 +57,6 @@ export async function getStaticPaths() {
 
     const { data: frontmatter } = matter(markdownWithMeta);
 
-    console.log('frontmatter', frontmatter);
-
     return frontmatter.category.toLowerCase();
   });
 
