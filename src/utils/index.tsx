@@ -8,3 +8,10 @@ export const sortByDate = (a: PostMatter, b: PostMatter) => {
   const bDate: Date = new Date(b.frontmatter.date);
   return bDate.getTime() - aDate.getTime();
 };
+
+export const estimateReadingTime = (text: string) => {
+  const averageWordsPerMinute = 260;
+  const wordCount = text.trim().split(/\s+/).length;
+  const readingTime = Math.ceil(wordCount / averageWordsPerMinute);
+  return readingTime;
+};
