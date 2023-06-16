@@ -12,39 +12,40 @@ import { getPosts } from '@/lib/posts';
 import { Post as PostType } from '@/pages/index';
 import { estimateReadingTime } from '@/utils';
 
-interface PostPagePrpos {
-  posts: PostType[];
-  // slug: string;
-  frontmatter: {
-    [key: string]: string;
-  };
-  content: any;
+export interface FrontmatterType {
+  title: string;
+  title_meta: string;
+  date: string;
+  excerpt: string;
+  cover_image: string;
+  alt_text: string;
+  category: string;
+  meta_desc: string;
+  meta_keywords: string;
 }
 
-// export interface FrontmatterType {
-//   category: string;
-//   cover_image: string;
-//   date: string;
-//   excerpt: string;
-//   title: string;
-// ER OPDATERET MED SEO
-// }
+interface PostPagePrpos {
+  posts: PostType[];
+  frontmatter: FrontmatterType;
+  content: string;
+}
 
 export default function PostPage({
   frontmatter: {
     title,
     title_meta,
-    category,
     date,
+    excerpt,
     cover_image,
     alt_text,
+    category,
     meta_desc,
   },
   content,
   posts,
 }: PostPagePrpos) {
   const filteredPosts = posts.filter(
-    (post: any) =>
+    (post: PostType) =>
       post.frontmatter.category === category && post.frontmatter.title !== title
   );
 
@@ -131,7 +132,7 @@ export default function PostPage({
                       <h4 className='text-2xl font-medium pb-2'>
                         {post.frontmatter.title}
                       </h4>
-                      <h6>{post.frontmatter.excerpt}</h6>
+                      <h6>{excerpt}</h6>
                     </div>
                   </Link>
                 ))
@@ -174,7 +175,13 @@ export async function getStaticPaths() {
   };
 }
 
-export async function getStaticProps({ params: { slug } }: any) {
+interface pathType {
+  params: {
+    slug: string;
+  };
+}
+
+export async function getStaticProps({ params: { slug } }: pathType) {
   const markdownWithMeta = fs.readFileSync(
     path.join('posts', slug + '.md'),
     'utf-8'

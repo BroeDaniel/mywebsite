@@ -2,6 +2,7 @@ import Link from 'next/link';
 import Post from '@/components/Post';
 import Layout from '@/components/Layouts/Layout';
 import { getPosts } from '@/lib/posts';
+import { FrontmatterType } from './blog/[slug]';
 
 interface PostsProps {
   posts: Post[];
@@ -9,9 +10,7 @@ interface PostsProps {
 
 export interface Post {
   slug: string;
-  frontmatter: {
-    [key: string]: string;
-  };
+  frontmatter: FrontmatterType;
 }
 
 export default function HomePage({ posts }: PostsProps) {

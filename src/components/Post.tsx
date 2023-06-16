@@ -1,24 +1,15 @@
 import Link from 'next/link';
 import Image from 'next/image';
 import CategoryLabel from './CategoryLabel';
+import { FrontmatterType } from '@/pages/blog/[slug]';
 
 interface PostProps {
   post: {
     slug: string;
-    frontmatter: {
-      [key: string]: string;
-    };
+    frontmatter: FrontmatterType;
   };
   compact?: boolean;
 }
-
-// export interface FrontmatterType {
-//   category: string;
-//   cover_image: string;
-//   date: string;
-//   excerpt: string;
-//   title: string;
-// }
 
 export default function Post({ post, compact = false }: PostProps) {
   const newTitle = post.frontmatter.title.includes(';')
