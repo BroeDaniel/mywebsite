@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export default function AboutPage() {
   return (
-    <Layout title='About - DanielBroe'>
+    <Layout title='About - Daniel Broe'>
       <h1 className='text-5xl border-b-4 p-5 font-bold'>About</h1>
       <div className='bg-white shadow-md rounded-lg px-10 py-6 mt-6'>
         <h3 className='text-2xl'>Who am I</h3>
