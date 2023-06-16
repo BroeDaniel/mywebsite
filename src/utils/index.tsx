@@ -10,7 +10,7 @@ export const sortByDate = (a: PostMatter, b: PostMatter) => {
 };
 
 export const estimateReadingTime = (text: string) => {
-  const averageWordsPerMinute = 260;
+  const averageWordsPerMinute = 330;
   const wordCount = text.trim().split(/\s+/).length;
   const readingTime = Math.ceil(wordCount / averageWordsPerMinute);
   return readingTime;
