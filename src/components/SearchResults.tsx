@@ -1,10 +1,9 @@
+import { FrontmatterType } from '@/pages/blog/[slug]';
 import Post from './Post';
 
 interface ResultProps {
   slug: string;
-  frontmatter: {
-    [key: string]: string;
-  };
+  frontmatter: FrontmatterType;
 }
 
 interface Results {
