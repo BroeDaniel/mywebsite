@@ -80,7 +80,7 @@ export async function getStaticProps({ params }: StaticProps) {
 
   const numPages = Math.ceil(files.length / POSTS_PER_PAGE);
   const pageIndex = page - 1;
-  const orderedPosts: PostType[] = posts.slice(
+  const orderedPosts = posts.slice(
     pageIndex * POSTS_PER_PAGE,
     (pageIndex + 1) * POSTS_PER_PAGE
   );
