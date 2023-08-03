@@ -98,14 +98,14 @@ Lastly I have spent a lot of time on the work from <a href="https://www.soebergi
 
 Sources used in this article:
 
-<a style="word-wrap:break-word" href="https://pubmed.ncbi.nlm.nih.gov/8925815/" target="_blank">https://pubmed.ncbi.nlm.nih.gov/8925815/</a>
-<a style="word-wrap:break-word" href="https://hubermanlab.com/dr-susanna-soberg-how-to-use-cold-and-heat-exposure-to-improve-your-health/" target="_blank">https://hubermanlab.com/dr-susanna-soberg-how-to-use-cold-and-heat-exposure-to-improve-your-health/</a>
-<a style="word-wrap:break-word" href="https://pubmed.ncbi.nlm.nih.gov/31842246/" target="_blank">https://pubmed.ncbi.nlm.nih.gov/31842246/</a>
-<a style="word-wrap:break-word" href="https://pubmed.ncbi.nlm.nih.gov/26041108/" target="_blank">https://pubmed.ncbi.nlm.nih.gov/26041108/</a>
-<a style="word-wrap:break-word" href="http://www.ncbi.nlm.nih.gov/pubmed/17993252" target="_blank">http://www.ncbi.nlm.nih.gov/pubmed/17993252</a>
-<a style="word-wrap:break-word" href="https://link.springer.com/article/10.1007/s004210050065" target="_blank">https://link.springer.com/article/10.1007/s004210050065</a>
-<a style="word-wrap:break-word" href="https://www.tandfonline.com/doi/full/10.1080/00365510701516350" target="_blank">https://www.tandfonline.com/doi/full/10.1080/00365510701516350</a>
-<a style="word-wrap:break-word" href="https://pubmed.ncbi.nlm.nih.gov/10378499/" target="_blank">https://pubmed.ncbi.nlm.nih.gov/10378499/</a>
-<a style="word-wrap:break-word" href="https://link.springer.com/article/10.1007/s004210050065" target="_blank">https://link.springer.com/article/10.1007/s004210050065</a>
-<a style="word-wrap:break-word" href="https://www.youtube.com/watch?v=1uerS5JjjRI&list=LL&index=7" target="_blank">https://www.youtube.com/watch?v=1uerS5JjjRI&list=LL&index=7</a>
-<a style="word-wrap:break-word" href="https://www.soeberginstitute.com/" target="_blank">https://www.soeberginstitute.com/</a>
+- <a style="word-wrap:break-word" href="https://pubmed.ncbi.nlm.nih.gov/8925815/" target="_blank">https://pubmed.ncbi.nlm.nih.gov/8925815/</a>
+- <a style="word-wrap:break-word" href="https://hubermanlab.com/dr-susanna-soberg-how-to-use-cold-and-heat-exposure-to-improve-your-health/" target="_blank">https://hubermanlab.com/dr-susanna-soberg-how-to-use-cold-and-heat-exposure-to-improve-your-health/</a>
+- <a style="word-wrap:break-word" href="https://pubmed.ncbi.nlm.nih.gov/31842246/" target="_blank">https://pubmed.ncbi.nlm.nih.gov/31842246/</a>
+- <a style="word-wrap:break-word" href="https://pubmed.ncbi.nlm.nih.gov/26041108/" target="_blank">https://pubmed.ncbi.nlm.nih.gov/26041108/</a>
+- <a style="word-wrap:break-word" href="http://www.ncbi.nlm.nih.gov/pubmed/17993252" target="_blank">http://www.ncbi.nlm.nih.gov/pubmed/17993252</a>
+- <a style="word-wrap:break-word" href="https://link.springer.com/article/10.1007/s004210050065" target="_blank">https://link.springer.com/article/10.1007/s004210050065</a>
+- <a style="word-wrap:break-word" href="https://www.tandfonline.com/doi/full/10.1080/00365510701516350" target="_blank">https://www.tandfonline.com/doi/full/10.1080/00365510701516350</a>
+- <a style="word-wrap:break-word" href="https://pubmed.ncbi.nlm.nih.gov/10378499/" target="_blank">https://pubmed.ncbi.nlm.nih.gov/10378499/</a>
+- <a style="word-wrap:break-word" href="https://link.springer.com/article/10.1007/s004210050065" target="_blank">https://link.springer.com/article/10.1007/s004210050065</a>
+- <a style="word-wrap:break-word" href="https://www.youtube.com/watch?v=1uerS5JjjRI&list=LL&index=7" target="_blank">https://www.youtube.com/watch?v=1uerS5JjjRI&list=LL&index=7</a>
+- <a style="word-wrap:break-word" href="https://www.soeberginstitute.com/" target="_blank">https://www.soeberginstitute.com/</a>
