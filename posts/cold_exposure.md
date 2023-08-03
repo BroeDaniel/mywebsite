@@ -39,7 +39,7 @@ When you feel the muscles are shivering it is time to get up, as you have ripped
 
 Consistent cold water exposure can lead to a stress response that positively affects the immune system, leading to enhanced immunity and reduced susceptibility to illnesses.
 
-The likelyhood of getting sick is lowered from an enhanced immunity and reduced susceptibility to illnesses. Studies from regular colder water immersion three times per week for six weeks, have found an increalse in the number lymphocytes (a type of white blodd cvell that helps attack invading bacteria viruses and toxins as well as the body's own cells that have been taken over by viruses or become cancerous). The shiver activated the brown fat, which is a way to prevent lifestyle diseases such as type 2-diabetes by increased insulin sensitivity, lower insulin production and you will have an improved glucose balance, meaning you would easier get rid of the glucose in your bloodstream further improving your metabolism.
+The likelyhood of getting sick is lowered from an enhanced immunity and reduced susceptibility to illnesses. Studies from regular colder water immersion three times per week for six weeks, have found an increalse in the number lymphocytes (a type of white blood cvell that helps attack invading bacteria viruses and toxins as well as the body's own cells that have been taken over by viruses or become cancerous). The shiver activated the brown fat, which is a way to prevent lifestyle diseases such as type 2-diabetes by increased insulin sensitivity, lower insulin production and you will have an improved glucose balance, meaning you would easier get rid of the glucose in your bloodstream further improving your metabolism.
 
 so if you're interested in improving your immune system taking cold showers could be the very thing that you need as it may help you reduce how often you get sick.
 
@@ -61,7 +61,7 @@ Inflammation is not always a bad thing. In fact, it is crucial for various reaso
 
 Cold exposure activates brown fat tissue, leading to increased metabolism and calorie burning. Cold showers may offer a modest boost in fat loss and metabolic rate. This comes from shivering, where the muscles releases a molecule (succinate) which activates brown fat, which increases metabolism. Note, this is not an aprroach that is suppose to be used for fat loss specific, as it is not measured to be a significant effect, but a minor added benefit. You would not get shredded from ice bath. It is still the well-known hard work in the gym along with an ongoing calorie deficit that will have the major effects on fat loss. However, cold exposure will give you a tiny boost because of the activation of brown fat. Brown fat is a special type of fat that produces heat to help maintain your natural body temperature in cold conditions. The activation of this fat breaks down glucose and fat molecules aælong with increasing your metabolic rate, resulting in a higher burn of the white fat.
 
-## Effect on Focus, energy and Sleep
+## Effect on Focus, energy and sleep
 
 The cold increases the core body temperature, leading to heightened alertness when done early in the day. If you are doing your deliberate cold exposure early in the day, you are going to get yet a further increase in core body temperature ,that would be associated with fully awakening your body and your ability to be alert, focused and with greater energy throughout the day. However, doing deliberate cold exposure very late in the evening may be disruptive on your sleep due to the increase in core body temperature, and a decrease in core body temperature (1-3 degrees) is necessary in order to get into deep sleep and remain in deep sleep. The studies was not conclusive on this, and many of the studies found have not had sleep as their main focus of study, therefore more studies needs to be conducted to say more about how ice bath effects sleep
 
@@ -98,15 +98,14 @@ Lastly I have spent a lot of time on the work from <a href="https://www.soebergi
 
 Sources used in this article:
 
-- https://pubmed.ncbi.nlm.nih.gov/8925815/
-- https://hubermanlab.com/dr-susanna-soberg-how-to-use-cold-and-heat-exposure-to-improve-your-health/
-- https://pubmed.ncbi.nlm.nih.gov/31842246/
-- https://pubmed.ncbi.nlm.nih.gov/26041108/
-- http://www.ncbi.nlm.nih.gov/pubmed/17993252
-- https://link.springer.com/article/10.1007/s004210050065
-- https://www.tandfonline.com/doi/full/10.1080/00365510701516350
-- https://pubmed.ncbi.nlm.nih.gov/10378499/
-- https://link.springer.com/article/10.1007/s004210050065
-- https://www.youtube.com/watch?v=1uerS5JjjRI&list=LL&index=7
-- https://www.soeberginstitute.com/
--
+<a style="word-wrap:break-word" href="https://pubmed.ncbi.nlm.nih.gov/8925815/" target="_blank">https://pubmed.ncbi.nlm.nih.gov/8925815/</a>
+<a style="word-wrap:break-word" href="https://hubermanlab.com/dr-susanna-soberg-how-to-use-cold-and-heat-exposure-to-improve-your-health/" target="_blank">https://hubermanlab.com/dr-susanna-soberg-how-to-use-cold-and-heat-exposure-to-improve-your-health/</a>
+<a style="word-wrap:break-word" href="https://pubmed.ncbi.nlm.nih.gov/31842246/" target="_blank">https://pubmed.ncbi.nlm.nih.gov/31842246/</a>
+<a style="word-wrap:break-word" href="https://pubmed.ncbi.nlm.nih.gov/26041108/" target="_blank">https://pubmed.ncbi.nlm.nih.gov/26041108/</a>
+<a style="word-wrap:break-word" href="http://www.ncbi.nlm.nih.gov/pubmed/17993252" target="_blank">http://www.ncbi.nlm.nih.gov/pubmed/17993252</a>
+<a style="word-wrap:break-word" href="https://link.springer.com/article/10.1007/s004210050065" target="_blank">https://link.springer.com/article/10.1007/s004210050065</a>
+<a style="word-wrap:break-word" href="https://www.tandfonline.com/doi/full/10.1080/00365510701516350" target="_blank">https://www.tandfonline.com/doi/full/10.1080/00365510701516350</a>
+<a style="word-wrap:break-word" href="https://pubmed.ncbi.nlm.nih.gov/10378499/" target="_blank">https://pubmed.ncbi.nlm.nih.gov/10378499/</a>
+<a style="word-wrap:break-word" href="https://link.springer.com/article/10.1007/s004210050065" target="_blank">https://link.springer.com/article/10.1007/s004210050065</a>
+<a style="word-wrap:break-word" href="https://www.youtube.com/watch?v=1uerS5JjjRI&list=LL&index=7" target="_blank">https://www.youtube.com/watch?v=1uerS5JjjRI&list=LL&index=7</a>
+<a style="word-wrap:break-word" href="https://www.soeberginstitute.com/" target="_blank">https://www.soeberginstitute.com/</a>
